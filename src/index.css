@@ -11,3 +11,56 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.full-width {
+  width: 100%;
+}
+.half-width {
+  width: 50%;
+}
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+.flex-row-wrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10px;
+}
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.space-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.side-margins {
+  margin: 0px 10px 0px 10px;
+}
+.first-row-margin-top {
+  margin-top: 20px;
+}
+
+/* Colors */
+.red-color {
+  color: red;
+}
+.green-color {
+  color: green;
+}
+.blue-color {
+  color: blue;
+}
+
+.line-through {
+  text-decoration: line-through;
+}

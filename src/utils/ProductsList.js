@@ -1,4 +1,5 @@
 import { categoryNames } from "./utils";
+import Logo from "../images/logo.png";
 
 const productsList = [
     {
@@ -9,7 +10,7 @@ const productsList = [
         price: 1000,
         offerPrice: 899,
         highlighed: true,
-        image: "",
+        image: Logo,
     },
     {
         id: 2,
@@ -19,7 +20,7 @@ const productsList = [
         price: 1000,
         offerPrice: null,
         highlighed: false,
-        image: "",
+        image: Logo,
     },
 ];
 
