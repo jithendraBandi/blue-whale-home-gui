@@ -22,6 +22,11 @@ code {
   display: flex;
   align-items: center;
 }
+.flex-center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 .flex-row-wrap {
   display: flex;
   align-items: center;
@@ -31,7 +36,12 @@ code {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-right: 10px;
+}
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .space-between {
   display: flex;
@@ -43,11 +53,17 @@ code {
   justify-content: space-around;
   align-items: center;
 }
+.text-align-center {
+  text-align: center;
+}
 .side-margins {
   margin: 0px 10px 0px 10px;
 }
-.first-row-margin-top {
-  margin-top: 20px;
+.margin-top {
+  margin-top: 10px;
+}
+.margin-zero {
+  margin: 0px;
 }
 
 /* Colors */
