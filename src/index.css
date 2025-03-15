@@ -37,6 +37,10 @@ code {
   justify-content: flex-end;
   align-items: center;
 }
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
 .flex-column-center {
   display: flex;
   flex-direction: column;
@@ -64,6 +68,9 @@ code {
 }
 .margin-zero {
   margin: 0px;
+}
+.margin-right {
+  margin-right: 10px;
 }
 
 /* Colors */

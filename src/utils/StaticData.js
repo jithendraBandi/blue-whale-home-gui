@@ -6,32 +6,32 @@ export const categoryList = [
     {
         src: CATEGORY_CABINETS,
         category: "Cabinets",
-        link: "/cabinets",
+        link: "/category-item/cabinets",
     },
     {
         src: Dummy,
         category: "Booster Pumps",
-        link: "/booster-pumps",
+        link: "/category-item/booster-pumps",
     },
     {
         src: Dummy,
         category: "Filters",
-        link: "/filters",
+        link: "/category-item/filters",
     },
     {
         src: Dummy,
         category: "Switches & Valves",
-        link: "/switches-and-valves",
+        link: "/category-item/switches-and-valves",
     },
     {
         src: Dummy,
         category: "Power (SMPS)",
-        link: "/power",
+        link: "/category-item/power",
     },
     {
         src: Dummy,
         category: "Connectors",
-        link: "/connectors",
+        link: "/category-item/connectors",
     },
     {
         src: Dummy,
@@ -46,7 +46,7 @@ export const categoryList = [
     {
         src: Dummy,
         category: "Others",
-        link: "/others",
+        link: "/category-item/others",
     },
     // {
     //     src: Dummy,
