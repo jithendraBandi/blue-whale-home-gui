@@ -1,0 +1,14 @@
+.category-link {
+    color: black;
+    text-decoration: none;
+}
+
+.category-image-styles {
+  width: 150px;
+  height: 150px;
+}
+@media screen and (min-width:767px) {
+    .category-image-styles {
+        width: 200px;
+    }
+}

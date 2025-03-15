@@ -1,0 +1,1 @@
+export const CATEGORY_CABINETS = "https://i.imgur.com/nVm9oLc_d.jpeg?maxwidth=520&shape=thumb&fidelity=high";

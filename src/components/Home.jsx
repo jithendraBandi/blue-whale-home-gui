@@ -1,9 +1,13 @@
+import Categories from "./Categories/Categories";
+import "./styles.css";
 
 const Home = () => {
   return (
-    <>
-    <p>Home</p>
-    </>
+    <section>
+      <article className="flex-row-wrap">
+        <Categories />
+      </article>
+    </section>
   );
 };
 
