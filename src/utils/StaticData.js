@@ -67,9 +67,15 @@ export const categoryList = [
 
 export const cabinets = [
     {
-        model: "XKLN",
+        model: "VEDA",
+        src: "https://i.imgur.com/cOAi1X0.jpg",
+        price: 1150,
+        description: "",
+    },
+    {
+        model: "",
         src: Dummy,
-        price: 3000,
-        description: "9 lit cabinet",
+        price: 0,
+        description: "",
     },
 ];

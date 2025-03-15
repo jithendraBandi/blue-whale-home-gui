@@ -2,7 +2,8 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { cabinets } from "../../utils/StaticData";
 import { Button } from "antd";
-import { CONTACT_NUMBER } from "../../utils/StringConstants";
+import { CALL_BACK_FORM, CONTACT_NUMBER } from "../../utils/StringConstants";
+import "./categoryItems.css";
 
 const CategoryItems = () => {
   const params = useParams();
@@ -23,12 +24,14 @@ const CategoryItems = () => {
       <article className="category-item-card">
         {categoryItems?.map((item, index) => (
           <div key={index} className="flex-row">
-            <img
-              src={item?.src}
-              alt={item?.model}
-              className="category-item-image"
-            />
-            <div className="flex-column">
+            <div className="half-width text-align-center margin-right">
+              <img
+                src={item?.src}
+                alt={item?.model}
+                className="category-item-image"
+              />
+            </div>
+            <div className="flex-column margin-left">
               <span>
                 <b>{item?.model}</b>
               </span>
@@ -37,11 +40,15 @@ const CategoryItems = () => {
                 <b>Rs.{item?.price}/-</b>
               </span>
               <div className="flex-row">
-                <Button type="primary" className="side-margins" onClick={makeCall}>
+                <Button
+                  type="primary"
+                  className="margin-right"
+                  onClick={makeCall}
+                >
                   Call
                 </Button>
                 <a
-                  href="https://forms.gle/CcH4SqVYJcHNzt5A6"
+                  href={CALL_BACK_FORM}
                   rel="noopener noreferrer"
                   target="_blank"
                   className="side-margins"
