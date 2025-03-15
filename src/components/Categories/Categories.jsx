@@ -7,10 +7,9 @@ const Categories = () => {
   return (
     <>
       {categoryList?.map((category, index) => (
-        <div key={index} className="half-width category-card">
+        <div key={index} className="category-card">
           <Link to={category?.link} className="flex-column-center category-link">
             <img
-            //   src="https://tse3.mm.bing.net/th?id=OIP.CNmzS8DurTgnRLOkqeph8wAAAA&pid=Api&P=0&h=220"
               src={category?.src}
               alt={category?.category}
               className="category-image-styles"
