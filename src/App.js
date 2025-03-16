@@ -12,7 +12,7 @@ const App = () => {
       <main>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/category-item/:id" element={<CategoryItems />} />
+          <Route exact path="/category-item/:category" element={<CategoryItems />} />
         </Routes>
       </main>
       <Footer />
