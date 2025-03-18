@@ -1,4 +1,6 @@
-import Dummy from "../images/dummy.png";
+// Image Links are retrieved from imgur.com website from Blue Whale account
+
+// import Dummy from "../images/dummy.png";
 
 export const categoryList = [
     {
@@ -22,7 +24,7 @@ export const categoryList = [
         link: "/category-item/switches-and-valves",
     },
     {
-        src: Dummy,
+        src: "https://i.imgur.com/eRVyGpM.jpg",
         category: "Minerals & Alkaline",
         link: "/category-item/minerals-alkaline",
     },
@@ -257,6 +259,24 @@ export const mineralsAndAlkaline = [
         price: [],
         description: "Copper, Mineral, Antiscalent, UF filter",
     },
+    {
+        model: "8 inch Mineral Cartridage",
+        src: "https://i.imgur.com/UX3Y0EO.jpg",
+        price: [],
+        description: "",
+    },
+    {
+        model: "4 inch Mineral Cartridage",
+        src: "https://i.imgur.com/J3ZU7Qs.jpg",
+        price: [],
+        description: "",
+    },
+    {
+        model: "Alkaline Filter",
+        src: "https://i.imgur.com/4gbhb5d.jpg",
+        price: [],
+        description: "",
+    },
 ];
 
 export const membranes = [
@@ -265,5 +285,195 @@ export const membranes = [
         src: "https://i.imgur.com/JVd6ir4.jpg",
         price: [],
         description: "80, 100 and 110 GPD",
+    },
+];
+
+export const uv = [
+    {
+        model: "LED UV",
+        src: "https://i.imgur.com/3m4Dmdq.jpg",
+        price: [],
+        description: "Double Side",
+    },
+    {
+        model: "LED UV Light (High Quality)",
+        src: "https://i.imgur.com/tc2mGmW.jpg",
+        price: [],
+        description: "Double Side",
+    },
+    {
+        model: "Metal UV Chamber",
+        src: "https://i.imgur.com/kTVcNv9.jpg",
+        price: [],
+        description: "8 inches",
+    },
+    {
+        model: "UV Chamber with LED light",
+        src: "https://i.imgur.com/kN3Dzjz.jpg",
+        price: [],
+        description: "8 inch & 4 inch",
+    },
+];
+
+export const connectors = [
+    {
+        model: "Bluk Head (Body Connectors)",
+        src: "https://i.imgur.com/6B4KLyM.jpg",
+        price: [],
+        description: "1/4 inch",
+    },
+    {
+        model: "Straight Connector",
+        src: "https://i.imgur.com/mHm0Rwp.jpg",
+        price: [],
+        description: "1/4 inch double QC side",
+    },
+    {
+        model: "PVC Water Inlet Cock",
+        src: "https://i.imgur.com/gSczXUs.jpg",
+        price: [],
+        description: "1/8 inch & 3/8 inch",
+    },
+    {
+        model: "Inlet Valve Nipples",
+        src: "https://i.imgur.com/nFprqCz.jpg",
+        price: [],
+        description: "PVC & SS",
+    },
+    {
+        model: "Straight Connector",
+        src: "https://i.imgur.com/vyJBpjO.jpg",
+        price: [],
+        description: "1/4 inch thread and QC",
+    },
+    {
+        model: "Elbow Connector",
+        src: "https://i.imgur.com/ylvrsTU.jpg",
+        price: [],
+        description: "1/4 inch double QC",
+    },
+    {
+        model: "RO Membrane Connector",
+        src: "https://i.imgur.com/qGpOOh8.jpg",
+        price: [],
+        description: "1/8 inch tread & QC",
+    },
+    {
+        model: "Pre-filter Connectors",
+        src: "https://i.imgur.com/bafmZ6y.jpg",
+        price: [],
+        description: "1/4 inch & 3/8 inch",
+    },
+    {
+        model: "Elbow Stem Connectors",
+        src: "https://i.imgur.com/Ra1Asub.jpg",
+        price: [],
+        description: "1/4 inch stem & QC",
+    },
+    {
+        model: "T-connectors",
+        src: "https://i.imgur.com/e2z4aVV.jpg",
+        price: [],
+        description: "1/4 triple side QC",
+    },
+    {
+        model: "Motor Connectors",
+        src: "https://i.imgur.com/8if0yB7.jpg",
+        price: [],
+        description: "1/8 inch & 3/8 inch thread & QC",
+    },
+    {
+        model: "TDS Adjusters",
+        src: "https://i.imgur.com/2CSZB0N.jpg",
+        price: [],
+        description: "Brass",
+    },
+    {
+        model: "TDS Adjusters",
+        src: "https://i.imgur.com/u8MTyzB.jpg",
+        price: [],
+        description: "PVC 1/4 inch",
+    },
+    {
+        model: "LP & HP Switch",
+        src: "https://i.imgur.com/0sboRYh.jpg",
+        price: [],
+        description: "Low Pressure & High Pressure switches",
+    },
+
+];
+
+export const others = [
+    {
+        model: "Taps (white, black, silver)",
+        src: "https://i.imgur.com/vsYWbOn.jpg",
+        price: [],
+        description: "Normal & Imported taps",
+    },
+    {
+        model: "Pipes",
+        src: "https://i.imgur.com/Mjcvhjq.jpg",
+        price: [],
+        description: "1/4 & 3/4 inch",
+    },
+    {
+        model: "RO hardware",
+        src: "https://i.imgur.com/x3gXL1u.jpg",
+        price: [],
+        description: "Cable Tie, Thimble Cover, Sleeve Roll, Thimble, Float Wire, Wire Cap, etc.,.",
+    },
+    {
+        model: "Storage Tank",
+        src: "https://i.imgur.com/3VRM8yX.jpg",
+        price: [],
+        description: "",
+    },
+    {
+        model: "Flow Resistory (FR)",
+        src: "https://i.imgur.com/yDdKlbI.jpg",
+        price: [],
+        description: "",
+    },
+    {
+        model: "Teflon Tape (15m)",
+        src: "https://i.imgur.com/wV4VCNR.jpg",
+        price: [],
+        description: "",
+    },
+    {
+        model: "Wrench",
+        src: "https://i.imgur.com/YlfJYIu.jpg",
+        price: [],
+        description: "Pre-filter & RO membrane housing wrench",
+    },
+    {
+        model: "Antiscalent Balls",
+        src: "https://i.imgur.com/35QsXRL.jpg",
+        price: [],
+        description: "",
+    },
+    {
+        model: "Electrolyzer",
+        src: "https://i.imgur.com/Oz1icBc.jpg",
+        price: [],
+        description: "",
+    },
+    {
+        model: "Pipe Cutter",
+        src: "https://i.imgur.com/mogn87y.jpg",
+        price: [],
+        description: "",
+    },
+    {
+        model: "TDS Meter",
+        src: "https://i.imgur.com/5OMmPD8.jpg",
+        price: [],
+        description: "",
+    },
+    {
+        model: "pH & Alkaline Testing Liquid",
+        src: "https://i.imgur.com/1XgvwCj.jpg",
+        price: [],
+        description: "",
     },
 ];

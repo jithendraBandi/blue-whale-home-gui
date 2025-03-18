@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { boosterPumps, cabinets, filters, housing, mineralsAndAlkaline, smps, switchesAndValves } from "../../utils/StaticData";
+import { boosterPumps, cabinets, connectors, filters, housing, membranes, mineralsAndAlkaline, others, smps, switchesAndValves, uv } from "../../utils/StaticData";
 import { Button, Tag } from "antd";
 import { CALL_BACK_FORM, CONTACT_NUMBER } from "../../utils/StringConstants";
 import "./categoryItems.css";
@@ -24,6 +24,14 @@ const CategoryItems = () => {
         return housing;
       case "minerals-alkaline":
         return mineralsAndAlkaline;
+      case "uv":
+        return uv;
+      case "connectors":
+        return connectors;
+      case "membranes":
+        return membranes;
+      case "others":
+        return others;
       default:
         return [];
     }
@@ -38,14 +46,14 @@ const CategoryItems = () => {
       <article className="category-item-card">
         {getCategoryItems()?.map((item, index) => (
           <div key={index} className="flex-row">
-            <div className="half-width text-align-center margin-right">
+            <div className="category-item-image-container">
               <img
                 src={item?.src}
                 alt={item?.model}
                 className="category-item-image"
               />
             </div>
-            <div className="flex-column margin-left">
+            <div className="flex-column category-item-content">
               <span>
                 <b>{item?.model}</b>
               </span>
